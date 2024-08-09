@@ -1,10 +1,17 @@
 import './App.css';
+import About from './components/About';
+import Movies from './components/Movies';
+import Menu from './components/Menu';
+import Location from './components/Location';
 
 function App() {
   return (
-    <div className="App">
-      movies
-    </div>
+    <>
+      <About />
+      <Movies />
+      <Menu />
+      <Location />
+    </>
   );
 }
 
